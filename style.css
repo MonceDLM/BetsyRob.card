@@ -184,7 +184,7 @@ padding: 20px;
 }
 .boton:hover {
 transform: scale(1.1);
-    font-size: 5vh;
+    font-size: 4vh;
     background: #e97194;
     color: #fcdafe;
 }
