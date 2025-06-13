@@ -230,14 +230,57 @@ transform: scale(1.1);
 @media (max-width: 768px) {
   body {
     background-attachment: scroll; /* mejor soporte en móviles */
-  }
-.contenedor-botones {
-  width: 90%;
-    margin: 0 auto;
-  background: #fcdade;
-    border: 5px solid #e97194;
-  border-radius: 20px;
-padding: 20px;
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
+
+body {
+  background-image: 
+    linear-gradient(rgba(233, 113, 148, 0.5), rgba(252, 218, 222, 0.2)),
+    url('https://files.catbox.moe/yz1qw9.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Imágenes */
+.Betsy-logo {
+  width: 80%;
+  max-width: 400px;
+  height: auto;
+}
+
+/* Contenedores */
+.contenedor-logo,
+.contenedor-botones {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
+
+  .Betsy-logo {
+    width: 90%;
+  }
+
+  .contenedor-botones {
+    max-width: 300px;
+  }
+}
+
+    
+  }
   
+
 }
