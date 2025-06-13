@@ -94,23 +94,20 @@
 
                                              /*-- CSS ELEMENTOS DE PAG*/
 
+
 body {
-    background: linear-gradient(0deg,rgba(233, 113, 148, 0.5) 50%, rgba(252, 218, 222, 0.2) 100%), url("https://files.catbox.moe/yz1qw9.png");
-
-  
-  
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-
   margin: 0;
-  height: 100vh;
-  
-    display: flex;
-  flex-direction: column;
-  align-content: center;
-  text-align: center;
+  min-height: 100vh;
+
+  background-image: 
+    linear-gradient(rgba(233, 113, 148, 0.5), rgba(252, 218, 222, 0.2)),
+    url('https://files.catbox.moe/yz1qw9.png'); /* reemplaza con tu URL */
+  background-size: cover;      /* asegura que cubra todo el fondo */
+  background-position: center; /* centra la imagen */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* opcional, efecto parallax */
 }
+
 
 
                                              /*-- CSS contenedores*/
