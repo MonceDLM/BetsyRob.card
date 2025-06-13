@@ -232,18 +232,11 @@ transform: scale(1.1);
     background-attachment: scroll; /* mejor soporte en móviles */
   }
 .contenedor-botones {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  text-align: center;
   width: 90%;
-   min-width: 250px;
-    max-width: 300px; /* Ancho definido */
     margin: 0 auto;
   background: #fcdade;
     border: 5px solid #e97194;
-      border-radius: 20px;
+  border-radius: 20px;
 padding: 20px;
 }
   
