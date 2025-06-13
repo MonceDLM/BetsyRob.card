@@ -131,14 +131,14 @@ img {
 
 }
 .contenedor-botones {
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-content: center;
   text-align: center;
   width: 90%;
-   min-width: 360px;
-    max-width: 500px; /* Ancho definido */
+  max-width: 500px;
+  margin: 0 auto;
+  box-sizing: border-box;
     margin: 0 auto;
   background: #fcdade;
     border: 5px solid #e97194;
