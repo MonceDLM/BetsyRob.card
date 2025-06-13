@@ -123,10 +123,11 @@ box-sizing: border-box;
     margin: 0 auto;
 
 }
-img{
-  
-  padding-top: 20px;
-  width: 100vh;
+
+img {
+  width: 80%;
+  max-width: 400px;
+  height: auto;
 
 }
 .contenedor-botones {
